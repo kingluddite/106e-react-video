@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.search-bar {
+  margin: 2rem;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 6.4rem;
+}
+
+.video-detail .details {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.4rem;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
